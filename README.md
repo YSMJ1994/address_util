@@ -16,6 +16,17 @@ let addressUtil = require('address_util')
 
 // get current machine local address
 const currentIp = addressUtil.getCurrentIp()    // example: 192.168.1.2
+// get new port to listen
+addressUtil.findPortToListen(8080, port => {
+    // if 8080 is not occupied , port > 8080
+    // else other port which is not occupied
+})
+// have not default port, find from 8080
+addressUtil.findPortToListen(port => {})
+
+// promise
+addressUtil.findPortToListen(8080).then(port => {})
+addressUtil.findPortToListen().then(port => {})
 ```
 
 ## License
