@@ -1,14 +1,19 @@
 {
-  "name": "address_util",
-  "version": "1.0.3",
-  "description": "ip util package",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "soberz",
-  "license": "ISC",
-  "dependencies": {
-    "os": "^0.1.1"
-  }
+    "name": "address_util",
+    "version": "1.0.3",
+    "description": "ip util package",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "homepage": "https://github.com/YSMJ1994/address_util",
+    "author": "soberz",
+    "license": "ISC",
+    "dependencies": {
+        "os": "^0.1.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/YSMJ1994/address_util"
+    }
 }
