@@ -27,6 +27,15 @@ addressUtil.findPortToListen(port => {})
 // promise
 addressUtil.findPortToListen(8080).then(port => {})
 addressUtil.findPortToListen().then(port => {})
+
+// get client real request ip
+const http = require('http')
+const server = http.createServer((req, res) => {
+    // real ip
+    const realClientIp = addressUtil.getClientIp(req)
+
+    res.send(realClientIp)
+})
 ```
 
 ## License
