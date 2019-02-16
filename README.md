@@ -34,7 +34,7 @@ const server = http.createServer((req, res) => {
     // real ip
     const realClientIp = addressUtil.getClientIp(req)
 
-    res.send(realClientIp)
+    res.end(realClientIp)
 })
 ```
 
