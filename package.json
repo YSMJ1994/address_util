@@ -1,6 +1,6 @@
 {
     "name": "address_util",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "ip util package",
     "main": "index.js",
     "scripts": {
@@ -15,5 +15,6 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/YSMJ1994/address_util"
-    }
+    },
+    "keywords": ["node", "address", "ip", "util", "address_util"]
 }
