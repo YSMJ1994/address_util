@@ -1,3 +1,7 @@
+/**
+ * get current network ip
+ * 获取当前网络ip
+ */
 const getCurrentIp = function() {
     const interfaces = require("os").networkInterfaces()
     let IPAdress = ""

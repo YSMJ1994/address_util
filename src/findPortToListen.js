@@ -2,6 +2,12 @@ const net = require("net")
 
 const defPort = 8080
 
+/**
+ * find a unused port to listening
+ * 寻找一个空闲端口以供监听
+ * @param {默认端口 default port} defaultPort 
+ * @param {回调函数 callback} callback 
+ */
 const findPort = function(defaultPort, callback) {
     if (arguments.length === 1) {
         if (defaultPort instanceof Function) {
